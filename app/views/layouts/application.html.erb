@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Toys and animals</title>
+    <title>Pragprog Books Online Store</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 
@@ -12,8 +12,8 @@
 
   <body class='<%= controller.controller_name %>'>
     <div id="banner">
-      <%= image_tag 'doglogo.svg', alt: 'The animal store' %>
-      <span class="title">Toys and animals</span>
+      <%= image_tag 'logo.svg', alt: 'The Pragmatic Bookshelf' %>
+      <span class="title"><%= @page_title %></span>
     </div>
 
     <div id="columns">
@@ -26,10 +26,10 @@
           <% end %>
         </div>
         <ul>
-          <li><a href="http://www....">Home</a></li>
-          <li><a href="http://www..../faq">Questions</a></li>
-          <li><a href="http://www..../news">News</a></li>
-          <li><a href="http://www..../contact">Contact</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Questions</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Contact</a></li>
           <li><a>Page loaded at:</a></li>
           <li><a> <%= DateTime.now%> </a></li>
         </ul>
