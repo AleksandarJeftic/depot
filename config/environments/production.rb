@@ -100,5 +100,6 @@ Rails.application.configure do
       password:"444saken",
       enable_starttls_auto: true
     }
+    
   end
 end
