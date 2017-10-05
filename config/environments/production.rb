@@ -99,7 +99,7 @@ Rails.application.configure do
       domain:"domain.of.sender.net",
       authentication: "plain",
       user_name:"jeftic66666@gmail.com",
-      password:"444saken",
+      password:"actionmailer",
       enable_starttls_auto: true
     }
   end
